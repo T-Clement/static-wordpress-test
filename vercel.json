@@ -1,8 +1,13 @@
 {
     "rewrites": [
       {
-        "source": "/wp-content/:path*",
-        "destination": "/public/wp-content/:path*"
+        "source": "./wp-content/plugins/opinion-system-integration/public/css/opinion-system-integration-public.css",
+        "destination": "/wp-content/plugins/opinion-system-integration/public/css/opinion-system-integration-public.css?ver=6.5.5"
+      },
+      {
+        "source": "./wp-content/plugins/opinion-system-integration/public/js/opinion-system-integration-public.js",
+        "destination": "/wp-content/plugins/opinion-system-integration/public/js/opinion-system-integration-public.js"
       }
     ]
   }
+  
