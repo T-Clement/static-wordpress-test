@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+      {
+        "source": "/wp-content/:path*",
+        "destination": "/public/wp-content/:path*"
+      }
+    ]
+  }
