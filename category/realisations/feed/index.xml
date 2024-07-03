@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Réalisations &#8211; Maisons d&#039;en France Normandie</title>
+	<atom:link href="/category/realisations/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description></description>
+	<lastBuildDate>Wed, 19 Jun 2024 12:07:53 +0000</lastBuildDate>
+	<language>fr-FR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.5</generator>
+	<item>
+		<title>Maison moderne plein pied Marigny</title>
+		<link>/2024/06/19/maison-moderne-plein-pied-marigny/</link>
+					<comments>/2024/06/19/maison-moderne-plein-pied-marigny/#respond</comments>
+		
+		<dc:creator><![CDATA[Webmestre]]></dc:creator>
+		<pubDate>Wed, 19 Jun 2024 08:42:04 +0000</pubDate>
+				<category><![CDATA[Réalisations]]></category>
+		<guid isPermaLink="false">/?p=44</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-medium"><img fetchpriority="high" decoding="async" width="300" height="200" data-id="49" src="/wp-content/uploads/2024/06/pexels-falling4utah-2724749-300x200.jpg" alt="" class="wp-image-49" srcset="/wp-content/uploads/2024/06/pexels-falling4utah-2724749-300x200.jpg 300w, /wp-content/uploads/2024/06/pexels-falling4utah-2724749-1024x683.jpg 1024w, /wp-content/uploads/2024/06/pexels-falling4utah-2724749-768x512.jpg 768w, /wp-content/uploads/2024/06/pexels-falling4utah-2724749-1536x1024.jpg 1536w, /wp-content/uploads/2024/06/pexels-falling4utah-2724749-2048x1365.jpg 2048w" sizes="(max-width: 300px) 100vw, 300px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="683" height="1024" data-id="50" src="/wp-content/uploads/2024/06/pexels-christa-grover-977018-2121121-683x1024.jpg" alt="" class="wp-image-50" srcset="/wp-content/uploads/2024/06/pexels-christa-grover-977018-2121121-683x1024.jpg 683w, /wp-content/uploads/2024/06/pexels-christa-grover-977018-2121121-200x300.jpg 200w, /wp-content/uploads/2024/06/pexels-christa-grover-977018-2121121-768x1152.jpg 768w, /wp-content/uploads/2024/06/pexels-christa-grover-977018-2121121-1024x1536.jpg 1024w, /wp-content/uploads/2024/06/pexels-christa-grover-977018-2121121-1365x2048.jpg 1365w, /wp-content/uploads/2024/06/pexels-christa-grover-977018-2121121-scaled.jpg 1707w" sizes="(max-width: 683px) 100vw, 683px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="698" data-id="51" src="/wp-content/uploads/2024/06/pexels-binyaminmellish-186077-1024x698.jpg" alt="" class="wp-image-51" srcset="/wp-content/uploads/2024/06/pexels-binyaminmellish-186077-1024x698.jpg 1024w, /wp-content/uploads/2024/06/pexels-binyaminmellish-186077-300x205.jpg 300w, /wp-content/uploads/2024/06/pexels-binyaminmellish-186077-768x524.jpg 768w, /wp-content/uploads/2024/06/pexels-binyaminmellish-186077-1536x1048.jpg 1536w, /wp-content/uploads/2024/06/pexels-binyaminmellish-186077-2048x1397.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="683" data-id="52" src="/wp-content/uploads/2024/06/pexels-binyaminmellish-106399-1024x683.jpg" alt="" class="wp-image-52" srcset="/wp-content/uploads/2024/06/pexels-binyaminmellish-106399-1024x683.jpg 1024w, /wp-content/uploads/2024/06/pexels-binyaminmellish-106399-300x200.jpg 300w, /wp-content/uploads/2024/06/pexels-binyaminmellish-106399-768x512.jpg 768w, /wp-content/uploads/2024/06/pexels-binyaminmellish-106399-1536x1024.jpg 1536w, /wp-content/uploads/2024/06/pexels-binyaminmellish-106399-2048x1365.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+</figure>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2024/06/19/maison-moderne-plein-pied-marigny/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Elementor #20</title>
+		<link>/2024/04/05/elementor-20/</link>
+					<comments>/2024/04/05/elementor-20/#respond</comments>
+		
+		<dc:creator><![CDATA[Webmestre]]></dc:creator>
+		<pubDate>Fri, 05 Apr 2024 14:26:53 +0000</pubDate>
+				<category><![CDATA[Réalisations]]></category>
+		<guid isPermaLink="false">/?p=20</guid>
+
+					<description><![CDATA[Test de l&#8217;ajout d&#8217;un article [subscribe]]]></description>
+										<content:encoded><![CDATA[
+<p>Test de l&rsquo;ajout d&rsquo;un article</p>
+
+
+
+<p>[subscribe]</p>
+
+
+<p>[subscribe]</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2024/04/05/elementor-20/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
