@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Terrrains &#8211; Programmes &#8211; Maisons d&#039;en France Normandie</title>
+	<atom:link href="https:/advert-category/programmes/feed/" rel="self" type="application/rss+xml" />
+	<link>https:</link>
+	<description></description>
+	<lastBuildDate>Fri, 19 Jul 2024 14:31:17 +0000</lastBuildDate>
+	<language>fr-FR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>Programme Périers</title>
+		<link>https:/advert/programme-periers/</link>
+		
+		<dc:creator><![CDATA[Webmestre]]></dc:creator>
+		<pubDate>Fri, 19 Jul 2024 10:03:38 +0000</pubDate>
+				<guid isPermaLink="false">https:/?post_type=advert#038;p=76</guid>
+
+					<description><![CDATA[20 terrains disponibles. Contactez Maisons d&#8217;en France Normandie pour plus d&#8217;informations]]></description>
+										<content:encoded><![CDATA[<p>20 terrains disponibles.<br />
+Contactez Maisons d&rsquo;en France Normandie pour plus d&rsquo;informations</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Programme Lingreville</title>
+		<link>https:/advert/programme-lingreville/</link>
+		
+		<dc:creator><![CDATA[Webmestre]]></dc:creator>
+		<pubDate>Wed, 17 Jul 2024 14:33:57 +0000</pubDate>
+				<guid isPermaLink="false">https:/?post_type=advert#038;p=78</guid>
+
+					<description><![CDATA[Programme de 60 maisons dans un lotissement proche de la mer à Lingreville.]]></description>
+										<content:encoded><![CDATA[<p>Programme de 60 maisons dans un lotissement proche de la mer à Lingreville.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -34,11 +34,14 @@
 
 
 document.addEventListener("DOMContentLoaded", function() {
-	
+	// console.log("test");
+	// console.log(pluginOpinionSystem);
+
+
 // console.log("Coucou");
 // console.log(document.getElementById("preview"));
 	if(document.getElementById("preview") != null) {
-		console.log("Le preview n'est pas null");
+		// console.log("Le preview n'est pas null");
 		// // -----------------
 		// // FETCHING datas via proxy.php
 		// // -----------------
@@ -48,12 +51,35 @@ document.addEventListener("DOMContentLoaded", function() {
 		// console.log(preview);
 		
 
+
+		// ---------------------- !!!!!!!!!!!!!!!!!!!!!!! ----------------
+		// ---------------------- !!!!!!!!!!!!!!!!!!!!!!! ----------------
 		// Change this to not show 
-		const proxy = "http://localhost/wordpress/wp-content/plugins/opinion-system-integration/proxy.php?action=reviews";
+		const proxy = pluginOpinionSystem.proxyUrl;
+		const nonce = pluginOpinionSystem.nonce;
+		// ---------------------- !!!!!!!!!!!!!!!!!!!!!!! ----------------
+		// ---------------------- !!!!!!!!!!!!!!!!!!!!!!! ----------------
+
+
+
+
+
+		// --------------------------------
+		// --------------------------------
+		// ajouter la vérification avec nonce pour éviter le csrf,
+		// charger via PHP avec une fonction détaillée dans word un objet JS avec des données PHP
+		// --------------------------------
+		// --------------------------------
+		const url = `${proxy}?action=reviews&nonce=${nonce}`;
 	
 		const timeout = 15000;
 	
-		const promise = fetch(proxy);
+		const promise = fetch(url, {
+			method: 'GET',
+			headers: {
+				"Content-type": 'application/x-www-form-urlencoded'
+			}
+		});
 	
 		const timeoutPromise = new Promise((resolve, reject) => {
 			setTimeout(() => {
@@ -70,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		})
 		.then(data => {
 			if(data.error === true) {
-				console.log(data.error);
+				// console.log(data.error);
 				preview.innerHTML = data.message;
 			} else {
 				// console.log(data);

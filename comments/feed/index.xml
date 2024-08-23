@@ -8,23 +8,23 @@
 <channel>
 	<title>
 	Commentaires pour Maisons d&#039;en France Normandie	</title>
-	<atom:link href="/comments/feed/" rel="self" type="application/rss+xml" />
-	<link></link>
+	<atom:link href="https:/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>https:</link>
 	<description></description>
 	<lastBuildDate>Wed, 03 Apr 2024 07:09:04 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.5.5</generator>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
 	<item>
 		<title>
 		Commentaires sur Bonjour tout le monde ! par Un commentateur ou commentatrice WordPress		</title>
-		<link>/2024/04/03/bonjour-tout-le-monde/#comment-1</link>
+		<link>https:/2024/04/03/bonjour-tout-le-monde/#comment-1</link>
 
 		<dc:creator><![CDATA[Un commentateur ou commentatrice WordPress]]></dc:creator>
 		<pubDate>Wed, 03 Apr 2024 07:09:04 +0000</pubDate>
-		<guid isPermaLink="false">/?p=1#comment-1</guid>
+		<guid isPermaLink="false">https:/?p=1#comment-1</guid>
 
 					<description><![CDATA[Bonjour, ceci est un commentaire.
 Pour débuter avec la modération, la modification et la suppression de commentaires, veuillez visiter l’écran des Commentaires dans le Tableau de bord.

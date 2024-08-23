@@ -24,7 +24,7 @@
 
 #wpcontent {
     /* margin-right: 36px !important; */
-    padding-right: 10px !important;
+    /* padding-right: 10px !important; */
 }
 /* For development purposes*/
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
@@ -206,12 +206,12 @@
 }
 
 
-@media screen and (min-width: 900px) {
+/* @media screen and (min-width: 900px) {
     .accordion-sub-ttl {
         flex-direction: row;
         gap: 20px;
     }    
-}
+} */
 
 .accordion-body {
     padding: 16px 16px 36px 16px;
@@ -243,27 +243,23 @@
 .details-left {
     /* width: 100%; */
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     /* outline: 1px solid green; */
     justify-content: space-around;
 }
 
 
 .details-right {
-    /* outline: 1px solid red; */
-    /* display: flex;
-    flex-direction: column;
-    flex-wrap: wrap; */
-    /* gap: 20px; */
+  
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 40px 40px;
+    /* grid-template-rows: 40px 40px; */
     padding-left: 32px;
     padding-right: 32px;
     /* width: 100%; */
     margin: 0;
     text-transform: uppercase;
-    
+    margin-bottom: 20px;
 }
 
 
@@ -275,23 +271,21 @@
     width: 80%;
 }
 
-
 @media screen and (min-width: 900px) {
-    .details-accordion {
-        flex-direction: row;
+    .details-right {
+        width: 90%;
+        grid-template-rows: 40px 40px;
     }
-
-    .details-left, .details-right {
-        width: 50%;
-    }
-
-   .details-right {
-    grid-template-columns: repeat(2, 1fr);
-   }
-
-
-
 }
+
+
+@media screen and (width > 425px) {
+    .rounded-progressbar-ttl {
+        font-size: 16px !important;
+    }
+}
+
+
 
 .details-right p, .details-right li {
     margin: 0;
@@ -369,12 +363,13 @@
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
+    font-size: 12px;
     /* font-family: sans-serif; */
 }
 
 
 
-
+/* bellow 330px, new display */
 
 /* ------------------------------ */
 /* details-left */
@@ -397,33 +392,64 @@
 .question-title {
     font-weight: bold;
     /* font-family:  'Open Sans', 'Helvetica Neue', sans-serif; */
-    color:rgb(129, 129, 129)
+    color:rgb(129, 129, 129);
+    font-size: 14px !important;
 }
 
 .btn-details-accordion {
     position: absolute;
     right: 12px;
     bottom: 10px;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     text-transform: uppercase;
-    background-color: var(--blue);
-    color: white;
+    border-radius: 2px;
     font-weight: bolder;
-    border: none;
+    
     padding: 10px 15px;
-    /* border-radius: 6px; */
+    
+    
+    
+    
+    background-color: var(--blue);
+    border: 3px solid var(--blue);
+    color: white;
 }
 
 
+.btn-details-accordion:hover {
+    transition: all 200ms ease-in-out;
+    background-color: white;
+    color: var(--blue);
+    border: 3px solid var(--blue);
+}
 
-@media screen and (min-width: 900px) {
+
+/* @media screen and (min-width: 900px) {
     .btn-details-accordion {
         padding: 15px 30px;
 
     }
+} */
+
+@media screen and (width < 330px) {
+
+    .details-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+    .single-chart {
+        width: 50%;
+    }
+
+    .rounded-progressbar-ttl {
+        font-size: 14px !important;
+    }
+
 }
-
-
 
 /* -------------------------- */ 
 /* accordion form */
@@ -491,17 +517,6 @@
 }
 
 
-@media screen and (min-width: 900px) {
-    .details-right-list-item {
-        margin: 0;
-    }
-
-    .progress-container {
-        width: 150px;
-    }
-
-}
-
 
 
 /* -----------------------------------------------*/
@@ -510,27 +525,6 @@
 /* -----------------------------------------------*/
 /* -----------------------------------------------*/
 
-/* .average-rating {
-    position: relative;
-    appearance: none;
-    color: transparent;
-    width: auto;
-    display: inline-block;
-    vertical-align: baseline;
-    font-size: 25px;
-  }
-  
-  .average-rating::before {
-    --percent: var(--stars-value);
-    content: '★★★★★';
-    position: absolute;
-    top: 0;
-    left: 0;
-    color: rgba(0,0,0,0.2);
-    background: linear-gradient(90deg, gold var(--percent), rgba(0,0,0,0.2) var(--percent));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  } */
 
 .stars {
     display: flex;

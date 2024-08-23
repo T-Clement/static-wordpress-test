@@ -8,14 +8,14 @@
 <channel>
 	<title>
 	Commentaires sur : Page d’exemple	</title>
-	<atom:link href="/page-d-exemple/feed/" rel="self" type="application/rss+xml" />
-	<link></link>
+	<atom:link href="https:/page-d-exemple/feed/" rel="self" type="application/rss+xml" />
+	<link>https:</link>
 	<description></description>
 	<lastBuildDate>Wed, 12 Jun 2024 12:03:08 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.5.5</generator>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
 </channel>
 </rss>

@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Non classé &#8211; Maisons d&#039;en France Normandie</title>
-	<atom:link href="/category/non-classe/feed/" rel="self" type="application/rss+xml" />
-	<link></link>
+	<atom:link href="https:/category/non-classe/feed/" rel="self" type="application/rss+xml" />
+	<link>https:</link>
 	<description></description>
 	<lastBuildDate>Wed, 03 Apr 2024 07:09:04 +0000</lastBuildDate>
 	<language>fr-FR</language>
@@ -18,23 +18,23 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.5.5</generator>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
 	<item>
 		<title>Bonjour tout le monde !</title>
-		<link>/2024/04/03/bonjour-tout-le-monde/</link>
-					<comments>/2024/04/03/bonjour-tout-le-monde/#comments</comments>
+		<link>https:/2024/04/03/bonjour-tout-le-monde/</link>
+					<comments>https:/2024/04/03/bonjour-tout-le-monde/#comments</comments>
 		
 		<dc:creator><![CDATA[Webmestre]]></dc:creator>
 		<pubDate>Wed, 03 Apr 2024 07:09:04 +0000</pubDate>
 				<category><![CDATA[Non classé]]></category>
-		<guid isPermaLink="false">/?p=1</guid>
+		<guid isPermaLink="false">https:/?p=1</guid>
 
 					<description><![CDATA[Bienvenue sur WordPress. Ceci est votre premier article. Modifiez-le ou supprimez-le, puis commencez à écrire !]]></description>
 										<content:encoded><![CDATA[
 <p>Bienvenue sur WordPress. Ceci est votre premier article. Modifiez-le ou supprimez-le, puis commencez à écrire !</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/2024/04/03/bonjour-tout-le-monde/feed/</wfw:commentRss>
+					<wfw:commentRss>https:/2024/04/03/bonjour-tout-le-monde/feed/</wfw:commentRss>
 			<slash:comments>1</slash:comments>
 		
 		
